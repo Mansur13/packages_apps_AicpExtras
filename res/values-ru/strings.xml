@@ -37,6 +37,7 @@
     <string name="hidden_anim_more_title">Больше?</string>
     <string name="hidden_anim_more_nice">Хорошо</string>
     <string name="continue_title">Продолжить</string>
+    <string name="settings_activity_title">Настройки АЕ</string>
 
     <string name="nothing_title">Ничего не увидеть здесь</string>
 
@@ -807,5 +808,122 @@
     <string name="slim_action_floats_summary">Выполнять действия Slim и Pie панели в режиме плавающего окна</string>
     <string name="gesture_anywhere_floating">Жесты</string>
     <string name="gesture_anywhere_floating_summary">Использовать жесты в плавающем режиме</string>
+    
+    <!-- Statusbar 4G LTE switch -->
+    <string name="show_fourg_title">Использовать 4G вместо LTE</string>
+    <string name="show_fourg_summary">Заменяет индикатор LTE в статус баре на 4G</string>
+    
+    <!-- Status Bar Ticker -->
+    <string name="ticker_screen_title">Бегущая строка</string>
+    <string name="ticker_title">Уведомление в статус баре</string>
+    <string name="ticker_screen_summary">Настроить стиль уведомления</string>
+    <string name="ticker_summary">Добавить сообщение в строку состояния</string>
+    <string name="ticker_restore_defaults_title">Сбросить настройки</string>
+    <string name="text_title">Текст</string>
+    <string name="icon_title">Иконка</string>
+    <string name="colors_title">Цвет</string>
+    
+    <!-- Heads up switch -->
+    <string name="heads_up_switch_title">Всплывающее уведомление</string>
+    <string name="heads_up_switch_summary">Включение уведомления.</string>
 
+    <!-- QuickSettings haptic feedback -->
+    <string name="quick_settings_vibrate_title">Вибрация при нажатии</string>
+    <string name="quick_settings_vibrate_summary">Вибрирует при нажатии на плитки</string>
+    
+    <!-- Advanced data tile -->
+    <string name="qs_advanced_data_title">Расширенный плитки</string>
+    <string name="qs_advanced_data_summary">Включение и отключении расширенных плиток</string>
+    
+    <!-- Quick settings tiles columns and rows config -->
+    <string name="qs_rows_portrait_title">Ряд (портрет)</string>
+    <string name="qs_rows_landscape_title">Ряд (ландшафт)</string>
+    <string name="qs_columns_title">Столбик</string>
+    <string name="sysui_qqs_count_title">Маленькие плитки БВ</string>
+
+    <!-- Tiles animation style  -->
+    <string name="qs_tile_animation_style_title">Стиль анимации плиток</string>
+    <string name="qs_tile_animation_duration_title">Длительность анимации плиток</string>
+    <string name="qs_tile_animation_interpolator_title">Анимация стиля плиток</string>
+    <string name="qs_tile_animation_style_off">Нет</string>
+    <string name="qs_tile_animation_style_flip">Переворот</string>
+    <string name="qs_tile_animation_style_rotate">Поворот</string>
+    <string name="qs_tile_animation_duration_low">Маленькая</string>
+    <string name="qs_tile_animation_duration_default">Стандарт</string>
+    <string name="qs_tile_animation_duration_fast">Быстрая</string>
+    <string name="qs_tile_animation_duration_superfast">Супер бысрая</string>
+    <string name="qs_tile_animation_interpolator_linearInterpolator">Обычный</string>
+    <string name="qs_tile_animation_interpolator_accelerateInterpolator">Ускорение</string>
+    <string name="qs_tile_animation_interpolator_decelerateInterpolator">Замедление</string>
+    <string name="qs_tile_animation_interpolator_accelerateDecelerateInterpolator">Ускорение замедление</string>
+    <string name="qs_tile_animation_interpolator_bounceInterpolator">Подпрыгивание</string>
+    <string name="qs_tile_animation_interpolator_overshootInterpolator">Выброс</string>
+    <string name="qs_tile_animation_interpolator_anticipateInterpolator">Вброс</string>
+    <string name="qs_tile_animation_interpolator_anticipateOvershootInterpolator">Вброс выброс</string>
+    <string name="qs_set_animation_style">%1$s</string>
+    <string name="qs_set_animation_duration">%1$s</string>
+    <string name="qs_set_animation_interpolator">%1$s</string>
+    
+    <!--Preference Categories-->
+    <string name ="anim">Анимация</string>
+    <string name ="indicators">Индикатор статус бара</string>
+    <string name="quicksettings_tiles_category">Настройки быстрых вкладок</string>
+    <string name ="header_tweaks">Заголовок</string>
+    <string name ="Misc">Разное</string>
+    <string name ="cab">Очистить все твики</string>
+    <string name ="visuals">Recents Extra Visuals</string>
+    <string name = "ls_blur">Размытие экрана блокировки</string>
+    <string name = "lclock_tweaks">Шрифт часов на экране блок</string>
+    <string name = "qs">Настройки ПУ</string>
+    <string name = "vol_diag">Gfytkm uhjvrjcnb</string>
+    <string name = "power">Меню выключения</string>
+    
+    <!-- Fingerprint authentication vibration -->
+    <string name="fprint_sucess_vib_title">Виброотклик отпечатка пальцев</string>
+    <string name="fprint_sucess_vib_summary">Виброотклик успешной аутентификации по отпечаткам пальцев</string>
+    
+    <!-- Volume dialog stroke settings -->
+    <string name="volume_dialog_stroke_title">Обводка панели громкости</string>
+    <string name="volume_dialog_stroke_disabled">Отключено</string>
+    <string name="volume_dialog_stroke_accent">Стандартный цвет</string>
+    <string name="volume_dialog_stroke_custom">Свой цвет</string>
+    <string name="volume_dialog_stroke_color_title">Цвет обводки панели громкости</string>
+    <string name="volume_dialog_stroke_thickness_title">Толщина обводки панели громкости</string>
+    <string name="volume_dialog_corner_radius_title">Угол обводки громкости</string>
+    <string name="volume_dialog_dash_width_title">Ширина разрыва обводки панели громкости</string>
+    <string name="volume_dialog_dash_gap_title">Разрыв обводки панели громкости</string>
+
+    <!-- QS stroke settings -->
+    <string name="qs_stroke_title">Панель быстрых вкладок</string>
+    <string name="qs_stroke_disabled">Отключено</string>
+    <string name="qs_stroke_accent">Стандартный цвет</string>
+    <string name="qs_stroke_custom">Свой цвет</string>
+    <string name="qs_stroke_color_title">Цвет обводки панели БВ</string>
+    <string name="qs_stroke_thickness_title">Толщина обводки панели БВ</string>
+    <string name="qs_corner_radius_title">Угол обводки панели БВ</string>
+    <string name="qs_dash_width_title">Ширина разрыва обводки панели БВ</string>
+    <string name="qs_dash_gap_title">Разрыв обводки панели БВ</string>
+    
+    <!-- Optional screenshot type -->
+    <string name="screenshot_type_title">Тип скриншота</string>
+    <string name="screenshot_type_fullscreen">Скриншот на весь экран</string>
+    <string name="screenshot_type_partial">Выбрать область скриншота</string>
+
+    <!-- AE settings -->
+    <string name="ae_settings_title">Настройки AicpExtas</string>
+    <string name="ae_custom_colors_title">Свой цвет</string>
+    <string name="ae_custom_colors_summaries">Используйте настройки ниже, чтобы изменить внешний вид AE</string>
+    <string name="ae_drawer_opacity_title">Прозрачность навигационного бара</string>
+    <string name="ae_drawer_bg_color_title">Цвет навигационного бара</string>
+    <string name="ae_settings_restore_defaults_title">Сбросить настройки</string>
+    <string name="values_restored_title">Настройки сброшены</string>
+    <string name="ae_header_bg_image_opacity_title">Navigation drawer header bg image opacity</string>
+    <string name="ae_nav_drawer_checked_text_title">Цвет выбранного пункта</string>
+    <string name="ae_nav_drawer_unchecked_text_title">Цвет текста пунктов</string>
+    <string name="ae_settings_summary_title">Custom AE summary text in Settings application</string>
+    <string name="custom_summary_title">Custom AE summary</string>
+    <string name="custom_summary_explain">Please enter a new summary. Leave blank to revert to stock text.</string>
+    <string name="custom_summary_notset">Custom rom personalizations</string>
+
+    
 </resources>
